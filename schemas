@@ -1,0 +1,18 @@
+barber_shop_info:
+ - id integer
+ - name varchar
+ - manager_id integer
+ - address char(50)
+ - phone_number char(10)
+
+barber_info:
+ - id integer
+ - name char(20)
+ - barber_shop_id integer
+
+customer_info:
+ - id integer
+ - name char(20)
+
+comment info:
+
